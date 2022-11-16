@@ -42,7 +42,7 @@ app.post("/send", async function (req, res) {
 
 })
 
-app.listen(3000,()=>{console.log("server started at 3000")})
+app.listen(process.env.PORT,()=>{console.log("server started at 3000")})
 
 
 
